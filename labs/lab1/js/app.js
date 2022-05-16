@@ -33,7 +33,6 @@ function draw () {
     noStroke();
     fill(backgroundColor)
     triangle(125, 250, 500, 150, 500, 350)
-    
     //Creating Pacman's Power Pellets
     //Making each one have the same y value so they're lined up properly
     fill(pellets);
