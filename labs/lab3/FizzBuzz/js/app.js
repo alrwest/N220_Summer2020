@@ -1,6 +1,4 @@
 //FizzBuzz
-
-
 function setup() {
          createCanvas(1800, 300);
     }
