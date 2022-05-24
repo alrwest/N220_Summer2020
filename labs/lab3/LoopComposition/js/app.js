@@ -12,12 +12,12 @@ function draw() {
     strokeWeight(5);
 
     var r = 0;
-    while (r < 100) {
-        r += 10;
+    while (r < 20) {
+        r++;
         for (var i = 0; i < circleY.length; i++) { //length of the array determines the number of circles falling
             fill(255,182,193);
             circle((i+2)*100, circleY[i], 50);
-            circleY[i] += 0.5; //speed of the circles falling
+            circleY[i] += 0.1; //speed of the circles falling
   
         }
     }
