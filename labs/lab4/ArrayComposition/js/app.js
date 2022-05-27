@@ -37,8 +37,8 @@ function setup () {
         //creating class methods
 
         jitter() { //creating the movement/fizziness with random positions
-            this.x = this.x + random(-8,8);
-            this.y = this.y + random(-8,8);
+            this.x = this.x + random(-3,3);
+            this.y = this.y + random(-3,3);
         }
 
         display() { //designing the fizz/bubbles
