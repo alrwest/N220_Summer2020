@@ -1,0 +1,30 @@
+/* CSS */
+
+.background-wrapper {
+    width: 900px;
+    height: 600px;
+    background-image: url("../images/polka-background.jpg");
+}
+.wrapper {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: #eb3d5a;
+    border-bottom: 3px solid #eb3d5a;
+
+}
+
+p {
+    margin-top: 2px;
+    font-size: 25px;
+    color: #42aaf5;
+}

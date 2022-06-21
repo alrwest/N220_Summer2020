@@ -1,0 +1,16 @@
+/* CSS Styling Sheet */
+
+h1 {
+    color: #2800db;
+    font-size: 30px;
+}
+
+.name-form-wrapper {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greeter</title>
+  </head>
+    <!-- import JavaScript & CSS files here -->
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- using a div container as a wrapper to keep form styled and centered-->
+    <div class="name-form-wrapper">
+        <!-- header here -->
+        <h1>Please Enter Your Name</h1>
+        <input id="enterName" placeholder="Your name here..."/>
+        <!-- Break tags put space between lines-->
+        <br />
+        <!-- creating a button to run the function getName(), to be pressed after user inputs name.-->
+        <button onclick = "getName()"> Enter Name </button>
+        <br />
+        <!-- creating a div container to return input value back to user-->
+        <div id="returnName"></div>
+    </div>
+  </body>
+</html>
