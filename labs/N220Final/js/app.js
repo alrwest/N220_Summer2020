@@ -145,6 +145,11 @@ function checkMatch() {
 }
 //creating a function to reset the game
 replayGame() {
+  //when restart button is pressed, event listener exe startGame()
+    var restart = document.getElementById("button");
+    restart.addEventListener("click", startGame);
+
+    //shuffle the array
     cardArray.sort(() => Math.random());
 }
 
