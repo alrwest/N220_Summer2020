@@ -1,0 +1,39 @@
+/* Styling the app, centering it, adding color, etc. */
+
+
+* {
+    color: #0049c7;
+}
+
+
+.wrapper {
+    width: 300px;
+    height: 500px;
+    background-color: #ffb442;
+    border: 2px;
+    border-color: #c2d8fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+input {
+    border-radius: 12px;
+    border-color: #c2d8fc;
+    border-style: solid;
+    width: 250px;
+    height: 20px;
+    margin: 30px;
+}
+
+#calcButton {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: #c2d8fc;
+    border-style: solid;
+}
