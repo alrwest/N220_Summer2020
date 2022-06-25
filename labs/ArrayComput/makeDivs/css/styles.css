@@ -1,0 +1,23 @@
+* {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    height: 4%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}

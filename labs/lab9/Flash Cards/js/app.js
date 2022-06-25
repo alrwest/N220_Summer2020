@@ -6,7 +6,12 @@
 
 //display result in a div
 
+let element = document.getElementById("eventTest");
 
-function askQuestion(event) {
-    event.target.innerHTML = results;
+element.addEventListener("click", displayAnswer());
+
+function displayAnswer(event) {
+    event.target.innerHTML = "Clicked";
+    event.target.style.backgroundColor = "#999999";
+
 }
