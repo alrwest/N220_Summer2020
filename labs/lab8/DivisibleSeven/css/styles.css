@@ -1,0 +1,28 @@
+/* Styling The Page */
+
+
+.wrapper {
+    width: 600px;
+    height: 300px;
+    background-color: #5a03fc;
+    color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+button {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 250px;
+}

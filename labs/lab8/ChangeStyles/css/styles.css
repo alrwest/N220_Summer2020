@@ -1,0 +1,27 @@
+
+/* Styling */ 
+
+.main-wrapper {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 450px;
+}
+
+button {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 150px;
+}
+.block {
+    width: 500px;
+    height: 500px;
+    background-color: #66070c;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
